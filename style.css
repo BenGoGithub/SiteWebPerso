@@ -1,0 +1,206 @@
+header {
+  display: flex;
+  size: 200px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(55, 140, 231);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  thead,
+  tfoot {
+    background-color: rgb(103, 205, 252);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(55, 140, 231);
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(173, 220, 241);
+  }
+  
+  tfoot th {
+    text-align: center;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+h1 {
+  color: rgb(77, 77, 211);
+}
+
+h2 {
+  color: rgb(4, 4, 124);
+}
+
+h3 {
+  position: relative;
+  position: center;
+  color: rgb(248, 248, 250);
+  text-align: center;
+}
+
+body {
+  background-color: rgb(103, 198, 227);
+  color: rgb(83, 86, 255);
+}
+
+.Photo1 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 00;
+  top: 0;
+  border-radius: 100px;
+  width : 16%;
+  z-index: 0;
+}
+
+.bouton {
+  display: block;
+  background-color: #719fee;
+  border-radius: 10px;
+  border: 4px double #1f69ec;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.bouton:hover{
+  background-color: #ffffff;
+  border: 2px solid #1f69ec;
+  box-shadow: 10px 5px 5px #719fee;
+  color: #1f69ec;
+  text-align: center;
+  font-size: 22px;
+}
+
+.Cadre-bouton,
+.hobbies,
+.competences {
+  background-image: url("background.jpg"), url("background.jpg");
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #1f69ec;
+  box-shadow: 10px 5px 5px #719fee;
+  color: #1f69ec;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.presentation {
+  font-style: italic;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(background2.jpg);
+  border-radius: 10px;
+  padding: 1px;
+}
+.container {    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-evenly;
+  margin: 25px;
+}
+
+.Cadre-bouton {
+  justify-content: center;
+  padding: 10px;
+}
+html {
+  font-family: sans-serif;
+}
+
+div:first-of-type {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 15px;
+  line-height: 32px;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid rgb(26, 1, 248);
+}
+
+button,
+legend {
+  color: white;
+  background-color: rgb(10, 2, 122);
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+button:hover,
+button:focus {
+  color: #999;
+}
+
+button:active {
+  background-color: white;
+  color: rgb(5, 8, 182);
+  outline: 1px solid rgb(6, 63, 148);
+}
+@media screen and (max-width: 1200px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+  }
